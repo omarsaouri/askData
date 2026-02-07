@@ -1,0 +1,231 @@
+{
+    "encoding": "UTF-8",
+    "separator": ",",
+    "heading_columns": 0,
+    "trailing_columns": 0,
+    "header_row_idx": 0,
+    "header": [
+        "Surface",
+        "Pièces",
+        "Quartier",
+        "Prix"
+    ],
+    "total_lines": 1500,
+    "nb_duplicates": "0",
+    "categorical": [
+        "Pièces",
+        "Quartier"
+    ],
+    "columns_fields": {
+        "Surface": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        },
+        "Pièces": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        },
+        "Quartier": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Prix": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        }
+    },
+    "columns_labels": {
+        "Surface": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Pièces": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Quartier": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Prix": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        }
+    },
+    "columns": {
+        "Surface": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Pièces": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Quartier": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Prix": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        }
+    },
+    "formats": {
+        "string": [
+            "Surface",
+            "Pièces",
+            "Quartier",
+            "Prix"
+        ]
+    },
+    "profile": {
+        "Surface": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "106.16351564726381"
+                },
+                {
+                    "count": 1,
+                    "value": "131.2216460466634"
+                },
+                {
+                    "count": 1,
+                    "value": "99.83731290437734"
+                },
+                {
+                    "count": 1,
+                    "value": "129.4738921228565"
+                },
+                {
+                    "count": 1,
+                    "value": "34.060151894536375"
+                },
+                {
+                    "count": 1,
+                    "value": "43.19409255325445"
+                },
+                {
+                    "count": 1,
+                    "value": "84.64300525681413"
+                },
+                {
+                    "count": 1,
+                    "value": "87.0379516400195"
+                },
+                {
+                    "count": 1,
+                    "value": "141.77419226095373"
+                },
+                {
+                    "count": 1,
+                    "value": "60.223663333157766"
+                }
+            ],
+            "nb_distinct": 1500,
+            "nb_missing_values": 0
+        },
+        "Pièces": {
+            "tops": [
+                {
+                    "count": 336,
+                    "value": "2"
+                },
+                {
+                    "count": 296,
+                    "value": "5"
+                },
+                {
+                    "count": 295,
+                    "value": "3"
+                },
+                {
+                    "count": 294,
+                    "value": "1"
+                },
+                {
+                    "count": 279,
+                    "value": "4"
+                }
+            ],
+            "nb_distinct": 5,
+            "nb_missing_values": 0
+        },
+        "Quartier": {
+            "tops": [
+                {
+                    "count": 552,
+                    "value": "Centre"
+                },
+                {
+                    "count": 483,
+                    "value": "Périphérie"
+                },
+                {
+                    "count": 465,
+                    "value": "Banlieue"
+                }
+            ],
+            "nb_distinct": 3,
+            "nb_missing_values": 0
+        },
+        "Prix": {
+            "tops": [
+                {
+                    "count": 2,
+                    "value": "323469"
+                },
+                {
+                    "count": 2,
+                    "value": "248344"
+                },
+                {
+                    "count": 2,
+                    "value": "280662"
+                },
+                {
+                    "count": 1,
+                    "value": "493847"
+                },
+                {
+                    "count": 1,
+                    "value": "61462"
+                },
+                {
+                    "count": 1,
+                    "value": "317273"
+                },
+                {
+                    "count": 1,
+                    "value": "274867"
+                },
+                {
+                    "count": 1,
+                    "value": "126665"
+                },
+                {
+                    "count": 1,
+                    "value": "65417"
+                },
+                {
+                    "count": 1,
+                    "value": "295656"
+                }
+            ],
+            "nb_distinct": 1497,
+            "nb_missing_values": 0
+        }
+    }
+}

@@ -1,0 +1,287 @@
+{
+    "encoding": "ISO-8859-1",
+    "separator": ",",
+    "heading_columns": 0,
+    "trailing_columns": 0,
+    "header_row_idx": 0,
+    "header": [
+        "Date",
+        "Produit",
+        "Prix",
+        "QuantitÃ©",
+        "Remise"
+    ],
+    "total_lines": 1000,
+    "nb_duplicates": "0",
+    "categorical": [
+        "Produit",
+        "QuantitÃ©",
+        "Remise"
+    ],
+    "columns_fields": {
+        "Date": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Produit": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Prix": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        },
+        "QuantitÃ©": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        },
+        "Remise": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        }
+    },
+    "columns_labels": {
+        "Date": {
+            "python_type": "string",
+            "format": "date_fr",
+            "score": 1.0
+        },
+        "Produit": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Prix": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "QuantitÃ©": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Remise": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        }
+    },
+    "columns": {
+        "Date": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Produit": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Prix": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "QuantitÃ©": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "Remise": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        }
+    },
+    "formats": {
+        "string": [
+            "Date",
+            "Produit",
+            "Prix",
+            "QuantitÃ©",
+            "Remise"
+        ]
+    },
+    "profile": {
+        "Date": {
+            "tops": [
+                {
+                    "count": 7,
+                    "value": "2023-04-09"
+                },
+                {
+                    "count": 6,
+                    "value": "2025-08-15"
+                },
+                {
+                    "count": 5,
+                    "value": "2024-10-20"
+                },
+                {
+                    "count": 5,
+                    "value": "2023-09-10"
+                },
+                {
+                    "count": 5,
+                    "value": "2025-07-17"
+                },
+                {
+                    "count": 5,
+                    "value": "2025-05-21"
+                },
+                {
+                    "count": 5,
+                    "value": "2023-07-09"
+                },
+                {
+                    "count": 4,
+                    "value": "2023-08-21"
+                },
+                {
+                    "count": 4,
+                    "value": "2024-05-25"
+                },
+                {
+                    "count": 4,
+                    "value": "2024-11-12"
+                }
+            ],
+            "nb_distinct": 615,
+            "nb_missing_values": 0
+        },
+        "Produit": {
+            "tops": [
+                {
+                    "count": 342,
+                    "value": "A"
+                },
+                {
+                    "count": 330,
+                    "value": "C"
+                },
+                {
+                    "count": 328,
+                    "value": "B"
+                }
+            ],
+            "nb_distinct": 3,
+            "nb_missing_values": 0
+        },
+        "Prix": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "15.741051408545788"
+                },
+                {
+                    "count": 1,
+                    "value": "16.732098496396244"
+                },
+                {
+                    "count": 1,
+                    "value": "29.7327219673516"
+                },
+                {
+                    "count": 1,
+                    "value": "42.374050538217794"
+                },
+                {
+                    "count": 1,
+                    "value": "8.092077463322049"
+                },
+                {
+                    "count": 1,
+                    "value": "24.093359864819966"
+                },
+                {
+                    "count": 1,
+                    "value": "8.71779485566709"
+                },
+                {
+                    "count": 1,
+                    "value": "28.15959139580802"
+                },
+                {
+                    "count": 1,
+                    "value": "45.45053708028059"
+                },
+                {
+                    "count": 1,
+                    "value": "40.2118216053772"
+                }
+            ],
+            "nb_distinct": 1000,
+            "nb_missing_values": 0
+        },
+        "QuantitÃ©": {
+            "tops": [
+                {
+                    "count": 70,
+                    "value": "17"
+                },
+                {
+                    "count": 65,
+                    "value": "13"
+                },
+                {
+                    "count": 62,
+                    "value": "9"
+                },
+                {
+                    "count": 61,
+                    "value": "4"
+                },
+                {
+                    "count": 59,
+                    "value": "3"
+                },
+                {
+                    "count": 59,
+                    "value": "15"
+                },
+                {
+                    "count": 59,
+                    "value": "8"
+                },
+                {
+                    "count": 58,
+                    "value": "19"
+                },
+                {
+                    "count": 52,
+                    "value": "6"
+                },
+                {
+                    "count": 51,
+                    "value": "2"
+                }
+            ],
+            "nb_distinct": 19,
+            "nb_missing_values": 0
+        },
+        "Remise": {
+            "tops": [
+                {
+                    "count": 310,
+                    "value": "15"
+                },
+                {
+                    "count": 307,
+                    "value": "10"
+                },
+                {
+                    "count": 286,
+                    "value": "5"
+                }
+            ],
+            "nb_distinct": 3,
+            "nb_missing_values": 97
+        }
+    }
+}

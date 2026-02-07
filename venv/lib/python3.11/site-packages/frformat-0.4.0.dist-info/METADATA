@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: frformat
+Version: 0.4.0
+Summary: 
+License: AGPL-3.0
+Author: Pierre Camilleri
+Author-email: 22995923+pierrecamilleri@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: python-stdnum (>=1.19,<2.0)
+Requires-Dist: shapely (>=2.0.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Fr-format
+
+A collection of validators to check data against french formats.
+
+## Installation
+
+The package is published on PyPI. Install with :
+
+`pip install frformat`
+
+## Usage 
+
+```python
+from frformat import Departement
+
+print(Departement.description())
+Departement.is_valid("Haute-Vienne")
+# True
+Departement.is_valid("Canyon Cosmo")
+# False
+```
+
+For better performance on big amounts of data, use in conjunction with numpy.
+
+## Available formats
+
+Check out [this file](./docs/formats.md) for a list of available formats.
+
