@@ -1,0 +1,819 @@
+{
+    "encoding": "ASCII",
+    "separator": ",",
+    "heading_columns": 0,
+    "trailing_columns": 0,
+    "header_row_idx": 0,
+    "header": [
+        "user_id",
+        "order_id",
+        "signup_date",
+        "last_purchase",
+        "age",
+        "price",
+        "quantity",
+        "total_amount",
+        "currency",
+        "country",
+        "city",
+        "lat",
+        "lon",
+        "status",
+        "is_active",
+        "device_type",
+        "referral_source",
+        "notes"
+    ],
+    "total_lines": 10,
+    "nb_duplicates": "1",
+    "categorical": [
+        "user_id",
+        "order_id",
+        "signup_date",
+        "last_purchase",
+        "age",
+        "price",
+        "quantity",
+        "total_amount",
+        "currency",
+        "country",
+        "city",
+        "lat",
+        "lon",
+        "status",
+        "is_active",
+        "device_type",
+        "referral_source",
+        "notes"
+    ],
+    "columns_fields": {
+        "user_id": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "order_id": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "signup_date": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "last_purchase": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "age": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "price": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        },
+        "quantity": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        },
+        "total_amount": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        },
+        "currency": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "country": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "city": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "lat": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        },
+        "lon": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.0
+        },
+        "status": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "is_active": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "device_type": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "referral_source": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "notes": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        }
+    },
+    "columns_labels": {
+        "user_id": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "order_id": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "signup_date": {
+            "python_type": "string",
+            "format": "date_fr",
+            "score": 0.5
+        },
+        "last_purchase": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "age": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "price": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "quantity": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "total_amount": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "currency": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "country": {
+            "python_type": "string",
+            "format": "pays",
+            "score": 1.0
+        },
+        "city": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "lat": {
+            "python_type": "float",
+            "format": "latitude_wgs_fr_metropole",
+            "score": 0.75
+        },
+        "lon": {
+            "python_type": "float",
+            "format": "longitude_wgs_fr_metropole",
+            "score": 0.75
+        },
+        "status": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "is_active": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "device_type": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "referral_source": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "notes": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        }
+    },
+    "columns": {
+        "user_id": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "order_id": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "signup_date": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "last_purchase": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "age": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "price": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "quantity": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "total_amount": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "currency": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "country": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "city": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "lat": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "lon": {
+            "python_type": "float",
+            "format": "longitude_l93",
+            "score": 1.375
+        },
+        "status": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "is_active": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "device_type": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "referral_source": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        },
+        "notes": {
+            "python_type": "string",
+            "format": "string",
+            "score": 1.0
+        }
+    },
+    "formats": {
+        "string": [
+            "user_id",
+            "order_id",
+            "signup_date",
+            "last_purchase",
+            "age",
+            "price",
+            "quantity",
+            "total_amount",
+            "currency",
+            "country",
+            "city",
+            "lat",
+            "status",
+            "is_active",
+            "device_type",
+            "referral_source",
+            "notes"
+        ],
+        "longitude_l93": [
+            "lon"
+        ]
+    },
+    "profile": {
+        "user_id": {
+            "tops": [
+                {
+                    "count": 2,
+                    "value": "ntg"
+                },
+                {
+                    "count": 1,
+                    "value": "u001"
+                },
+                {
+                    "count": 1,
+                    "value": "u002"
+                },
+                {
+                    "count": 1,
+                    "value": "u003"
+                },
+                {
+                    "count": 1,
+                    "value": "u004"
+                },
+                {
+                    "count": 1,
+                    "value": "u005"
+                },
+                {
+                    "count": 1,
+                    "value": "u006"
+                },
+                {
+                    "count": 1,
+                    "value": "failed"
+                },
+                {
+                    "count": 1,
+                    "value": "ntg "
+                }
+            ],
+            "nb_distinct": 9,
+            "nb_missing_values": 0
+        },
+        "order_id": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "o1001"
+                },
+                {
+                    "count": 1,
+                    "value": "o1002"
+                },
+                {
+                    "count": 1,
+                    "value": "o1003"
+                },
+                {
+                    "count": 1,
+                    "value": "o1004"
+                },
+                {
+                    "count": 1,
+                    "value": "o1005"
+                },
+                {
+                    "count": 1,
+                    "value": "o1006"
+                },
+                {
+                    "count": 1,
+                    "value": "false"
+                }
+            ],
+            "nb_distinct": 7,
+            "nb_missing_values": 3
+        },
+        "signup_date": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "2023-01-12"
+                },
+                {
+                    "count": 1,
+                    "value": "2023-02-03"
+                },
+                {
+                    "count": 1,
+                    "value": "2023-02-20"
+                },
+                {
+                    "count": 1,
+                    "value": "2023-03-15"
+                },
+                {
+                    "count": 1,
+                    "value": "invalid_date"
+                },
+                {
+                    "count": 1,
+                    "value": "2023-05-01"
+                },
+                {
+                    "count": 1,
+                    "value": "desktop"
+                }
+            ],
+            "nb_distinct": 7,
+            "nb_missing_values": 3
+        },
+        "last_purchase": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "2024-01-10"
+                },
+                {
+                    "count": 1,
+                    "value": "2024-01-11"
+                },
+                {
+                    "count": 1,
+                    "value": "2024-01-15"
+                },
+                {
+                    "count": 1,
+                    "value": "2024-01-18"
+                },
+                {
+                    "count": 1,
+                    "value": "2024-01-20"
+                },
+                {
+                    "count": 1,
+                    "value": "affiliate"
+                }
+            ],
+            "nb_distinct": 6,
+            "nb_missing_values": 4
+        },
+        "age": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "25"
+                },
+                {
+                    "count": 1,
+                    "value": "31"
+                },
+                {
+                    "count": 1,
+                    "value": "22"
+                },
+                {
+                    "count": 1,
+                    "value": "45"
+                },
+                {
+                    "count": 1,
+                    "value": "29"
+                },
+                {
+                    "count": 1,
+                    "value": "test row"
+                }
+            ],
+            "nb_distinct": 6,
+            "nb_missing_values": 4
+        },
+        "price": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "19.99"
+                },
+                {
+                    "count": 1,
+                    "value": "5.50"
+                },
+                {
+                    "count": 1,
+                    "value": "100"
+                },
+                {
+                    "count": 1,
+                    "value": "9.99"
+                },
+                {
+                    "count": 1,
+                    "value": "49.99"
+                },
+                {
+                    "count": 1,
+                    "value": "0"
+                }
+            ],
+            "nb_distinct": 6,
+            "nb_missing_values": 4
+        },
+        "quantity": {
+            "tops": [
+                {
+                    "count": 2,
+                    "value": "1"
+                },
+                {
+                    "count": 1,
+                    "value": "2"
+                },
+                {
+                    "count": 1,
+                    "value": "5"
+                },
+                {
+                    "count": 1,
+                    "value": "10"
+                },
+                {
+                    "count": 1,
+                    "value": "0"
+                }
+            ],
+            "nb_distinct": 5,
+            "nb_missing_values": 4
+        },
+        "total_amount": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "39.98"
+                },
+                {
+                    "count": 1,
+                    "value": "27.50"
+                },
+                {
+                    "count": 1,
+                    "value": "100"
+                },
+                {
+                    "count": 1,
+                    "value": "99.90"
+                },
+                {
+                    "count": 1,
+                    "value": "49.99"
+                },
+                {
+                    "count": 1,
+                    "value": "0"
+                }
+            ],
+            "nb_distinct": 6,
+            "nb_missing_values": 4
+        },
+        "currency": {
+            "tops": [
+                {
+                    "count": 4,
+                    "value": "USD"
+                },
+                {
+                    "count": 1,
+                    "value": "EUR"
+                },
+                {
+                    "count": 1,
+                    "value": "GBP"
+                }
+            ],
+            "nb_distinct": 3,
+            "nb_missing_values": 4
+        },
+        "country": {
+            "tops": [
+                {
+                    "count": 4,
+                    "value": "USA"
+                },
+                {
+                    "count": 1,
+                    "value": "France"
+                },
+                {
+                    "count": 1,
+                    "value": "UK"
+                }
+            ],
+            "nb_distinct": 3,
+            "nb_missing_values": 4
+        },
+        "city": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "New York"
+                },
+                {
+                    "count": 1,
+                    "value": "Boston"
+                },
+                {
+                    "count": 1,
+                    "value": "Paris"
+                },
+                {
+                    "count": 1,
+                    "value": "Chicago"
+                },
+                {
+                    "count": 1,
+                    "value": "London"
+                }
+            ],
+            "nb_distinct": 5,
+            "nb_missing_values": 5
+        },
+        "lat": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "40.7128"
+                },
+                {
+                    "count": 1,
+                    "value": "42.3601"
+                },
+                {
+                    "count": 1,
+                    "value": "48.8566"
+                },
+                {
+                    "count": 1,
+                    "value": "41.8781"
+                },
+                {
+                    "count": 1,
+                    "value": "51.5074"
+                }
+            ],
+            "nb_distinct": 5,
+            "nb_missing_values": 5
+        },
+        "lon": {
+            "min": -87.6298,
+            "mean": -46.09406,
+            "max": 2.3522,
+            "std": 43.55305527317228,
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "-74.0060"
+                },
+                {
+                    "count": 1,
+                    "value": "-71.0589"
+                },
+                {
+                    "count": 1,
+                    "value": "2.3522"
+                },
+                {
+                    "count": 1,
+                    "value": "-87.6298"
+                },
+                {
+                    "count": 1,
+                    "value": "-0.1278"
+                }
+            ],
+            "nb_distinct": 5,
+            "nb_missing_values": 5
+        },
+        "status": {
+            "tops": [
+                {
+                    "count": 3,
+                    "value": "completed"
+                },
+                {
+                    "count": 1,
+                    "value": "pending"
+                },
+                {
+                    "count": 1,
+                    "value": "cancelled"
+                }
+            ],
+            "nb_distinct": 3,
+            "nb_missing_values": 5
+        },
+        "is_active": {
+            "tops": [
+                {
+                    "count": 4,
+                    "value": "true"
+                },
+                {
+                    "count": 1,
+                    "value": "false"
+                }
+            ],
+            "nb_distinct": 2,
+            "nb_missing_values": 5
+        },
+        "device_type": {
+            "tops": [
+                {
+                    "count": 3,
+                    "value": "mobile"
+                },
+                {
+                    "count": 1,
+                    "value": "desktop"
+                },
+                {
+                    "count": 1,
+                    "value": "tablet"
+                }
+            ],
+            "nb_distinct": 3,
+            "nb_missing_values": 5
+        },
+        "referral_source": {
+            "tops": [
+                {
+                    "count": 2,
+                    "value": "google"
+                },
+                {
+                    "count": 1,
+                    "value": "facebook"
+                },
+                {
+                    "count": 1,
+                    "value": "organic"
+                },
+                {
+                    "count": 1,
+                    "value": "email"
+                }
+            ],
+            "nb_distinct": 4,
+            "nb_missing_values": 5
+        },
+        "notes": {
+            "tops": [
+                {
+                    "count": 1,
+                    "value": "first purchase"
+                },
+                {
+                    "count": 1,
+                    "value": "discount applied"
+                },
+                {
+                    "count": 1,
+                    "value": "payment failed"
+                },
+                {
+                    "count": 1,
+                    "value": "bulk order"
+                }
+            ],
+            "nb_distinct": 4,
+            "nb_missing_values": 6
+        }
+    }
+}

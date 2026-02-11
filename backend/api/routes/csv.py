@@ -1,30 +1,36 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 from services import csv_service
-from utils import normalizers
 from db import get_db
+from services.column_recognition_service import profile_dataframe
+import pandas as pd
+
 
 router = APIRouter(prefix="/csv", tags=["CSV"])
 
 
 @router.post("/upload")
-async def upload_csv(
+async def analyze_csv(
     file: UploadFile = File(...),
     db: AsyncSession = Depends(get_db),
 ):
     if not file.filename.endswith(".csv"):
-        raise HTTPException(status_code = 400, detail = "Invalid file type")
+        raise HTTPException(status_code=400, detail="Invalid file type")
+
     df = await csv_service.process_csv(file)
-    analysis = csv_service.analyze_dataframe(df)
-    dataset_id = await csv_service.persist_analysis(
-        db=db,
-        filename=file.filename,
-        df=df,
-        analysis=analysis,
-    )
+
+    # DEBUG: Let's see what we actually got
+    print(f"Type of df: {type(df)}")
+    print(f"Is DataFrame? {isinstance(df, pd.DataFrame)}")
+    if isinstance(df, pd.DataFrame):
+        print(f"Columns: {df.columns.tolist()}")
+    else:
+        print(f"Value: {df}")
+
+    analysis = profile_dataframe(df)
+
     return {
-    "dataset_id": dataset_id,
-    "columns": df.columns.tolist(),
-    "row_count": len(df),
-    "analysis": analysis,
+        "columns": df.columns.tolist(),
+        "row_count": len(df),
+        "analysis": analysis,
     }

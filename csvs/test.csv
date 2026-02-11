@@ -1,0 +1,23 @@
+user_id,order_id,signup_date,last_purchase,age,price,quantity,total_amount,currency,country,city,lat,lon,status,is_active,device_type,referral_source,notes
+u001,o1001,2023-01-12,2024-01-10,25,19.99,2,39.98,USD,USA,New York,40.7128,-74.0060,completed,true,mobile,google,first purchase
+u002,o1002,2023-02-03,2024-01-11,31,5.50,5,27.50,USD,USA,Boston,42.3601,-71.0589,pending,true,desktop,facebook,discount applied
+u003,o1003,2023-02-20,2024-01-11,22,100,1,100,EUR,France,Paris,48.8566,2.3522,cancelled,false,mobile,organic,payment failed
+u004,o1004,2023-03-15,2024-01-15,45,9.99,10,99.90,USD,USA,Chicago,41.8781,-87.6298,completed,true,tablet,google,bulk order
+u005,o1005,invalid_date,2024-01-18,29,49.99,1,49.99,GBP,UK,London,51.5074,-0.1278,completed,true,mobile,email,
+u006,o1006,2023-05-01,2024-01-20,,0,0,0,USD,USA,,,,failed,false,desktop,affiliate,test row
+u007,o1007,2023-05-12,2024-01-21,34,15.00,3,45.00,USD,Canada,Toronto,43.6532,-79.3832,completed,true,mobile,google,repeat customer
+u008,o1008,2023-06-01,2024-01-22,28,7.99,4,31.96,USD,USA,Seattle,47.6062,-122.3321,completed,true,desktop,organic,
+u009,o1009,2023-06-18,2024-01-23,41,120.00,1,120.00,EUR,Germany,Berlin,52.5200,13.4050,completed,true,tablet,google,high value order
+u010,o1010,2023-07-05,2024-01-24,19,3.99,2,7.98,USD,USA,Austin,30.2672,-97.7431,pending,true,mobile,tiktok,new user
+u011,o1011,2023-07-20,2024-01-25,52,250.00,1,250.00,USD,USA,San Francisco,37.7749,-122.4194,completed,true,desktop,linkedin,enterprise purchase
+u012,o1012,2023-08-02,2024-01-11,37,12.49,6,74.94,USD,USA,Denver,39.7392,-104.9903,cancelled,false,mobile,google,delivery issue
+u013,o1013,2023-08-15,2024-01-27,26,8.99,2,17.98,EUR,Spain,Madrid,40.4168,-3.7038,completed,true,mobile,instagram,promo code used
+u014,o1014,2023-09-01,2024-01-28,33,60.00,1,60.00,USD,USA,Miami,25.7617,-80.1918,completed,true,tablet,email,summer sale
+u015,o1015,2023-09-18,2024-01-29,48,18.75,4,75.00,USD,USA,Atlanta,33.7490,-84.3880,pending,true,desktop,google,delayed payment
+u016,o1016,2023-10-01,2024-01-30,21,2.99,10,29.90,USD,USA,Los Angeles,34.0522,-118.2437,completed,true,mobile,snapchat,impulse buy
+u017,o1017,2023-10-20,2024-01-31,39,90.00,1,90.00,GBP,UK,Manchester,53.4808,-2.2426,completed,true,desktop,organic,returning user
+u018,o1018,2023-11-05,2024-02-01,27,14.50,3,43.50,USD,USA,Portland,45.5152,-122.6784,completed,true,mobile,google,
+u019,o1019,2023-11-22,2024-01-11,35,0,0,0,USD,USA,,,,failed,false,desktop,affiliate,test account
+u020,o1020,2023-12-01,2024-02-03,44,200.00,1,200.00,EUR,Italy,Rome,41.9028,12.4964,completed,true,tablet,google,luxury item
+u021,o1021,2023-12-15,2024-02-04,30,11.11,9,99.99,USD,USA,Phoenix,33.4484,-112.0740,completed,true,mobile,facebook,price experiment
+u022,o1022,2024-01-01,2024-02-05,23,4.20,5,21.00,USD,USA,San Diego,32.7157,-117.1611,pending,true,mobile,organic,new year signup
